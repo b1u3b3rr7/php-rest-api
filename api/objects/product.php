@@ -117,7 +117,7 @@ class Product
         $stmt->bindParam(':name', $this->name);
         $stmt->bindParam(':price', $this->price);
         $stmt->bindparam(':description', $this->description);
-        $stmt->bindParam(':category_id', $this->cateogry_id);
+        $stmt->bindParam(':category_id', $this->category_id);
         $stmt->bindParam(':id', $this->id);
 
         // execute the query
